@@ -503,6 +503,10 @@
     }
 }
 @media (min-width: 1024px) {
+    .splitter{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
     .myToggle{
         padding-right: 295px;
         padding-left: 295px;

@@ -1379,6 +1379,12 @@ body {
 
 }
 @media (min-width: 560px){
+  #join input {
+    width: 85%;
+  }
+  #join .joinButton{
+    width: 85%;
+  }
   .first_caro {
     height: 473px;
   }

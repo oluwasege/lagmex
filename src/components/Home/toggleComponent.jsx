@@ -15,7 +15,7 @@ const ToggleDivComponent = ({ text,another }) => {
                     <div>{text}</div>
                     <div>
                         <img
-                            src={isImageChanged ? 'https://res.cloudinary.com/dk80ynx1w/image/upload/v1685303124/lagmex_resource/plus_wwvmwx.svg' : 'https://res.cloudinary.com/dk80ynx1w/image/upload/v1685303124/lagmex_resource/Component_1_ki97wz.svg'}
+                            src={isImageChanged ? 'https://res.cloudinary.com/dk80ynx1w/image/upload/v1685303124/lagmex_resource/Component_1_ki97wz.svg' : 'https://res.cloudinary.com/dk80ynx1w/image/upload/v1685303124/lagmex_resource/plus_wwvmwx.svg'}
                             alt="Image"
                         />
                     </div>
