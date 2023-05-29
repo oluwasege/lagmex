@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lagmex/static/css/main.f6a4b7fb.css",
+    "main.css": "/lagmex/static/css/main.9f890481.css",
     "main.js": "/lagmex/static/js/main.6dcce8b0.js",
     "static/js/787.b708af37.chunk.js": "/lagmex/static/js/787.b708af37.chunk.js",
     "index.html": "/lagmex/index.html",
-    "main.f6a4b7fb.css.map": "/lagmex/static/css/main.f6a4b7fb.css.map",
+    "main.9f890481.css.map": "/lagmex/static/css/main.9f890481.css.map",
     "main.6dcce8b0.js.map": "/lagmex/static/js/main.6dcce8b0.js.map",
     "787.b708af37.chunk.js.map": "/lagmex/static/js/787.b708af37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6a4b7fb.css",
+    "static/css/main.9f890481.css",
     "static/js/main.6dcce8b0.js"
   ]
 }
