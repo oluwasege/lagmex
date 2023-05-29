@@ -507,6 +507,7 @@
     .splitter{
         padding-left: 24px;
         padding-right: 24px;
+        width: 96%;
     }
     .myToggle{
         padding-right: 295px;
@@ -609,5 +610,12 @@
     .spec{
         max-width: 1440px;
         margin: auto;
+    }
+}
+@media (min-width: 1440px) {
+    .splitter{
+        padding-left: unset;
+        padding-right: unset;
+        width: 100%;
     }
 }
