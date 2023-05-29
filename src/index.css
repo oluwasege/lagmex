@@ -719,13 +719,15 @@ body {
   nav{
     display: flex;
     height: 48px;
-    width: 100%;
-    position: fixed;
-    padding-top: 8px;
+    width: 81%;
+    justify-content: space-between;
+    position: absolute;
+    padding-top: 40px;
     padding-bottom: 8px;
-    padding-left: 24px;
+    padding-left: 48px;
     top: 0;
     z-index: 1000;
+    align-items: center;
   }
   /*.nav{*/
   /*  display: flex;*/
@@ -773,9 +775,6 @@ body {
   }
   /* Hamburger */
   .hamburger1 {
-    margin: 18px;
-    display: -ms-grid;
-    display: grid;
     grid-template-rows: repeat(3, 1fr);
     justify-items: center;
     z-index: 120;
@@ -791,13 +790,11 @@ body {
     position: relative;
     width: 24px;
     height: 24px;
-    background-image: url(https://res.cloudinary.com/dk80ynx1w/image/upload/v1681910586/RTL-Text_ixxxsb.svg);
+    background-image: url(https://res.cloudinary.com/dk80ynx1w/image/upload/v1685258043/lagmex_resource/menu-01_okefor.svg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: cover;
-    margin-top:6px;
     margin-left: -36px;
-    bottom: 17px;
     border: 1px white;
     transition: all 0.2s ease-in-out;
   }
@@ -813,6 +810,7 @@ body {
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: cover;
+    z-index: 300;
   }
 
   #toggle1:checked + .hamburger1 .meat {
@@ -836,17 +834,18 @@ body {
     position: absolute;
     width: 165px;
     height: unset;
+    text-align: center;
     padding-top: 16px;
     padding-right: 30px;
+    padding-bottom: 40px;
     background: #FAFCFF;
     box-shadow: inset 50.1333px -50.1333px 50.1333px rgba(190, 192, 194, 0.1), inset -50.1333px 50.1333px 50.1333px rgba(255, 255, 255, 0.1);
     border: 1px solid #FAFCFF;
-    top: 52px;
+    top: 43px;
     right: 0;
     border-radius: 4px;
   }
   a {
-    /*color: #0d6efd;*/
     text-decoration: none;
   }
 
@@ -867,16 +866,16 @@ body {
     z-index: 120;
     /*-webkit-transition: all 0.3s ease;*/
     /*transition: all 0.3s ease;*/
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 21px;
     color: white;
   }
 
   .link1 {
     margin-top: 18px;
     width: 100%;
-    color: white;
+    color: #1E1E1E;
     text-decoration: none;
   }
 
@@ -965,7 +964,7 @@ body {
     width: 100%;
   }
   .logo{
-    height: 32px;
+    height: 24px;
   }
   .logo_{
     height: 56px;
@@ -1375,7 +1374,7 @@ body {
   }
   .nav_d {
     display: flex;
-    margin-left: 60%;
+    /*margin-left: 31%;*/
   }
 
 }
@@ -1385,7 +1384,7 @@ body {
   }
   .nav_d {
     display: flex;
-    margin-left: 73%;
+    /*margin-left: 73%;*/
   }
   .first_text {
     font-size: 36px;
@@ -1472,6 +1471,9 @@ body {
 
 }
 @media (min-width: 760px) {
+  nav{
+    width: unset;
+  }
   #modify{
     margin-bottom: 50px;
   }
@@ -1607,10 +1609,15 @@ body {
   }
   .nav_d {
     display: flex;
-    margin-left: 12%;
+    float: unset;
+    /*margin-left: 12%;*/
   }
   section{
     display: none;
+  }
+  .logo{
+    padding-right: 94px;
+    height: 48px;
   }
 }
 @media (min-width: 1024px){
@@ -1713,7 +1720,7 @@ body {
   }
   nav{
     height: 55px;
-    padding-left: 104px;
+    padding-left: 96px;
   }
   section{
     display: none;
@@ -1723,13 +1730,13 @@ body {
   }
   .nav_d{
     display: flex;
-    margin-left: 6%;
+    /*margin-left: 6%;*/
   }
   .navControl {
     margin-left: 153px;
   }
   .navContainer{
-    gap: 19px;
+    gap: 64px;
   }
 
   .nav_w{
@@ -1761,6 +1768,7 @@ body {
   }
   .logo{
     height: 40px;
+    padding-right: 238px;
   }
 
   .logo_ {
@@ -1944,14 +1952,12 @@ body {
 @media (min-width: 1280px){
   .nav_d {
     display: flex;
-    margin-left: 6%;
+    /*margin-left: 6%;*/
   }
   .navControl {
     margin-left: 230px;
   }
-  .navContainer{
-    gap: 24px;
-  }
+
 }
 @media (min-width: 1440px){
 
@@ -1989,9 +1995,7 @@ body {
   .whats {
     right: 29vh;
   }
-  .navContainer{
-    gap: 19px;
-  }
+
 
 
 }
@@ -2001,7 +2005,7 @@ body {
   }
   .fixWidth{
     display: grid;
-    position: fixed;
+    position: absolute;
     justify-items: center;
     height: 56px;
     width: 100%;

@@ -7,6 +7,7 @@ import "react-lazy-load-image-component/src/effects/blur.css"
 import Splitter from "./splitter";
 import React from "react";
 import LastSplitter from "./lastSplit";
+import ToggleComponent from "./toggleComponent";
 
 
 
@@ -27,7 +28,7 @@ export default function Home() {
         },
     };
     return (
-        <div>
+        <div className='spec'>
             <div className='heroImg'>
                 <button className='comingSoon'>
                     COMING SOON
@@ -85,6 +86,43 @@ export default function Home() {
                     </div>
                 </div>
 
+
+            </div>
+            <div className='frequent'>
+                Frequently Asked Questions
+            </div>
+            <ToggleComponent text='Where is Lagmex incorporated?' another='LAGMEX is incorporated in Lagos, Nigeria.'/>
+            <ToggleComponent text='Who can use the commodities exchange?' another='LAGMEX is incorporated in Lagos, Nigeria.'/>
+            <ToggleComponent text='Are there any membership or registration requirements to access the commodities exchange?' another='LAGMEX is incorporated in Lagos, Nigeria.'/>
+            <ToggleComponent text='Can individual traders participate on the commodities exchange?' another='LAGMEX is incorporated in Lagos, Nigeria.'/>
+            <ToggleComponent text='Do I need a broker to access the commodities exchange?' another='LAGMEX is incorporated in Lagos, Nigeria.'/>
+            <ToggleComponent text='What are the asset classes that can be traded on the exchange?' another='LAGMEX is incorporated in Lagos, Nigeria.'/>
+            <div className='emailDiv'>
+                <div className='heroImg joinG' id='join'>
+                    <div className='text'>
+                        Join our waitlist for a new way to invest in African commodities with tokenization and derivatives trading.
+                    </div>
+                    <div className="joinGrp">
+                        <input type='email' placeholder='Enter email address' />
+                        <div className='joinButton'>
+                            Join waitlist
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='connection'>
+                Connect with us
+            </div>
+            <div className='socialBox'>
+                <div className="social">
+                    <img src='https://res.cloudinary.com/dk80ynx1w/image/upload/v1685341977/lagmex_resource/Frame_1000003287_onj0fc.svg' alt='socialImage'/>
+                    <img src='https://res.cloudinary.com/dk80ynx1w/image/upload/v1685341977/lagmex_resource/Frame_1000003288_xxenib.svg' alt='socialImage'/>
+                    <img src='https://res.cloudinary.com/dk80ynx1w/image/upload/v1685341977/lagmex_resource/Frame_1000003289_obp7sw.svg' alt='socialImage'/>
+                </div>
+            </div>
+
+            <div className="connection" id='lastDiv'>
+                2023 LAGMEX. All rights reserved
             </div>
         </div>
     );

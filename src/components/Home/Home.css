@@ -1,4 +1,93 @@
 @media (min-width: 300px) {
+    #lastDiv{
+        margin-bottom: 94px;
+    }
+    .socialBox{
+        text-align: center;
+    }
+    .social{
+        display: inline-flex;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    .social img{
+        height: 40px;
+    }
+    .connection{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        color: #535C5F;
+        margin-bottom: 16px;
+    }
+    #join{
+        padding-top: 16px;
+        padding-right: 16px;
+        padding-left: 16px;
+        padding-bottom: 16px;
+        background: url(https://res.cloudinary.com/dk80ynx1w/image/upload/v1685237694/lagmex_resource/Rectangle_6564_almlry.jpg);
+        border-radius: 16px;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 50px;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover;
+    }
+    .emailDiv{
+        margin-top: 98px;
+    }
+    .emailDiv .text{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        color: #F5FAFC;
+    }
+    .myToggle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #031E27;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .tToggle{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 32px;
+        color: #535C5F;
+        margin-top: 16px;
+
+        padding-left: 24px;
+    }
+    hr{
+        display: block;
+        color: #E6EDEF;
+        font-size: 1px;
+        height: 0;
+        width: 84%;
+        margin-top: 24px;
+        opacity: 0.2;
+        margin-bottom: 24px;
+    }
+    .frequent{
+        margin-top: 56px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: clamp(20px, 4vw, 32px);
+        line-height: 32px;
+        color: #43A4C4;
+        padding-bottom: 32px;
+    }
     .heroImg {
         padding-top: 168px;
         padding-bottom: 130px;
@@ -14,8 +103,8 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        padding-right: 24px;
-        padding-left: 24px;
+        padding-right: 22px;
+        padding-left: 22px;
         gap: 8px;
         width: 134px;
         height: 36px;
@@ -125,7 +214,10 @@
     .splitter{
         display: inline-flex;
         gap: 24px;
-        padding: 24px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-right: 24px;
+        padding-left: 24px;
         flex-direction: column;
     }
     #spliter{
@@ -254,6 +346,32 @@
 
 }
 @media (min-width: 760px) {
+    hr{
+        margin-bottom: 48px;
+
+    }
+    .emailDiv .text{
+        margin-bottom: 32px;
+    }
+    #join{
+        padding-top: 72px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 107px;
+    }
+    .myToggle{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+    .tToggle{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 48px;
+    }
     .thirdDiv{
         padding-top: 48px;
         padding-right: 48px;
@@ -313,10 +431,12 @@
         line-height: 40px;
     }
     .splitter{
-        width: 96%;
+        width: 100%;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        padding-right: unset;
+        padding-left: unset;
     }
     .splitterImg{
         width: 357px;
@@ -383,6 +503,23 @@
     }
 }
 @media (min-width: 1024px) {
+    .myToggle{
+        padding-right: 295px;
+        padding-left: 295px;
+    }
+    hr{
+        width: 62%;
+    }
+    .emailDiv .text{
+        width: 843px;
+    }
+    #join{
+        margin-left: 96px;
+        margin-right: 96px;
+    }
+    .tToggle{
+        padding-left: 295px;
+    }
     .thirdDiv{
         padding-top: 80px;
         padding-right: 94px;
@@ -462,5 +599,9 @@
     }
     .vidHead{
         font-size: 32px;
+    }
+    .spec{
+        max-width: 1440px;
+        margin: auto;
     }
 }
