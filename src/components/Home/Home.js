@@ -92,11 +92,11 @@ export default function Home() {
                 Frequently Asked Questions
             </div>
             <ToggleComponent text='Where is Lagmex incorporated?' another='LAGMEX is incorporated in Lagos, Nigeria.'/>
-            <ToggleComponent text='Who can use the commodities exchange?' another='LAGMEX is incorporated in Lagos, Nigeria.'/>
-            <ToggleComponent text='Are there any membership or registration requirements to access the commodities exchange?' another='LAGMEX is incorporated in Lagos, Nigeria.'/>
-            <ToggleComponent text='Can individual traders participate on the commodities exchange?' another='LAGMEX is incorporated in Lagos, Nigeria.'/>
-            <ToggleComponent text='Do I need a broker to access the commodities exchange?' another='LAGMEX is incorporated in Lagos, Nigeria.'/>
-            <ToggleComponent text='What are the asset classes that can be traded on the exchange?' another='LAGMEX is incorporated in Lagos, Nigeria.'/>
+            <ToggleComponent text='Who can use the commodities exchange?' another='The commodities exchange is open to a wide range of participants, including individuals, institutions, corporations, and other entities involved in commodities trading. Eligibility criteria and requirements may differ based on purpose.'/>
+            <ToggleComponent text='Are there any membership or registration requirements to access the commodities exchange?' another='Membership of the exchange is entirely free. However, KYC requirement are important to be admitted to the exchange.'/>
+            <ToggleComponent text='Can individual traders participate on the commodities exchange?' another='Yes.'/>
+            <ToggleComponent text='Do I need a broker to access the commodities exchange?' another='No. However, institutions might use a broker to place certain trades on their behalf.'/>
+            <ToggleComponent text='What are the asset classes that can be traded on the exchange?' another='Assets include metals, agriculture, energy and tokenized commodities'/>
             <div className='emailDiv'>
                 <div className='heroImg joinG' id='join'>
                     <div className='text'>
