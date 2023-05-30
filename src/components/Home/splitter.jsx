@@ -1,5 +1,4 @@
 import React from 'react';
-import {LazyLoadImage} from "react-lazy-load-image-component";
 
 function Splitter({className, id,imgID,text, anotherText, splitID}) {
 

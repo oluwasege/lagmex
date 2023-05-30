@@ -1479,7 +1479,7 @@ body {
 }
 @media (min-width: 760px) {
   nav{
-    width: unset;
+    width: 86%;
   }
   #modify{
     margin-bottom: 50px;

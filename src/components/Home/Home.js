@@ -8,7 +8,6 @@ import Splitter from "./splitter";
 import React, {useEffect} from "react";
 import LastSplitter from "./lastSplit";
 import ToggleComponent from "./toggleComponent";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
 
