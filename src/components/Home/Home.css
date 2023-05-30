@@ -547,10 +547,7 @@
         padding-right: 295px;
     }
     .thirdDiv{
-        padding-top: 80px;
-        padding-right: 94px;
-        padding-left: 94px;
-        padding-bottom: 80px;
+        padding: 80px 94px;
     }
     #splitID_{
         font-size: 48px;
@@ -627,7 +624,6 @@
         font-size: 32px;
     }
     .spec{
-        max-width: 1440px;
         margin: auto;
     }
 }
@@ -636,5 +632,9 @@
         padding-left: unset;
         padding-right: unset;
         width: 100%;
+    }
+    .setMax{
+        max-width: 1440px;
+        margin: auto;
     }
 }
