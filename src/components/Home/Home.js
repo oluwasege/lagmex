@@ -135,9 +135,15 @@ export default function Home() {
             </div>
             <div className='socialBox'>
                 <div className="social">
+                    <a href='https://www.linkedin.com/company/lagos-mercantile-exchange/'>
                     <img src='https://res.cloudinary.com/dk80ynx1w/image/upload/v1685341977/lagmex_resource/Frame_1000003287_onj0fc.svg' alt='socialImage'/>
+                    </a>
+                    <a href='https://instagram.com/_lagmex?igshid=NTc4MTIwNjQ2YQ=='>
                     <img src='https://res.cloudinary.com/dk80ynx1w/image/upload/v1685341977/lagmex_resource/Frame_1000003288_xxenib.svg' alt='socialImage'/>
+                    </a>
+                    <a href='https://twitter.com/_lagmex?s=21&t=CeUAo6jPh0mZlxFkhvoZuA'>
                     <img src='https://res.cloudinary.com/dk80ynx1w/image/upload/v1685341977/lagmex_resource/Frame_1000003289_obp7sw.svg' alt='socialImage'/>
+                    </a>
                 </div>
             </div>
 
