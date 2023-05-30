@@ -33,7 +33,7 @@ export default function Header(){
                             <div className='hideAndSeek'>
                                 <div className='navContainer'>
                                         <div >
-                                            <a href='#loader'>
+                                            <a href='/#loader'>
                                                 Why LAGMEX
                                             </a>
                                         </div>
