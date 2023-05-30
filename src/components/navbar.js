@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css"
-import {Link, useLocation} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export default function Header(){
+
 
     return(
         <div>
@@ -22,29 +23,33 @@ export default function Header(){
                                     </label>
                                     <div className="menu1">
 
-                                        <a className="link1" href="">Why LAGMEX</a>
-                                        <a className="link1" href="">Education</a>
-                                        <a className="link1" href="">FAQs</a>
-                                        <Link to='/Support' className="link1" >
-                                            <a className="link1" href="">Contact us</a>
-                                        </Link>
+                                        <a className="link1" href='#loader' >Why LAGMEX</a>
+                                        <a className="link1" href='#educate' >Education</a>
+                                        <a className="link1" href='#frequent'  >FAQs</a>
+                                        <a className="link1" href='#contact' >Contact us</a>
                                     </div>
                                 </div>
                             </section>
                             <div className='hideAndSeek'>
                                 <div className='navContainer'>
-                                    <Link to='/'  className='link2'>
-                                        <div >Why LAGMEX</div>
-                                    </Link>
-                                    <Link to='/visa'  className='link2'>
-                                        <div>Education</div>
-                                    </Link>
-                                    <Link to='#ourServicesRoute'  className='link2' >
-                                        <div>FAQs</div>
-                                    </Link>
-                                    <Link to='/Support'  className='link2'>
-                                        <div>Contact us</div>
-                                    </Link>
+                                        <div >
+                                            <a href='#loader'>
+                                                Why LAGMEX
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href='#educate'>
+                                                Education
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href='#frequent'>
+                                                FAQs
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a href='#contact'>Contact us</a>
+                                        </div>
 
 
                                 </div>

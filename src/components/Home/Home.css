@@ -25,11 +25,8 @@
         margin-bottom: 16px;
     }
     #join{
-        padding-top: 16px;
-        padding-right: 16px;
-        padding-left: 16px;
-        padding-bottom: 16px;
-        background: url(https://res.cloudinary.com/dk80ynx1w/image/upload/v1685237694/lagmex_resource/Rectangle_6564_almlry.jpg);
+        padding: 16px;
+        background: url(https://res.cloudinary.com/dk80ynx1w/image/upload/v1685429211/lagmex_resource/Frame_1000003356_mjeutq.png);
         border-radius: 16px;
         margin-left: 24px;
         margin-right: 24px;
@@ -46,6 +43,8 @@
         font-size: 20px;
         line-height: 32px;
         color: #F5FAFC;
+        margin-bottom: 24px;
+        padding-left: 30px;
     }
     .myToggle{
         display: flex;
@@ -320,7 +319,10 @@
         padding-bottom: 40px;
     }
 }
-@media (min-width: 520px) {
+@media (min-width: 560px) {
+    .emailDiv .text{
+        width: 85%;
+    }
     .heroImg .firstText {
         width: 495px;
     }
@@ -346,18 +348,31 @@
 
 }
 @media (min-width: 760px) {
+    .connection{
+        font-size: 16px;
+    }
+    .secondDiv .fix{
+        display: block;
+        width: 668px;
+    }
     hr{
         margin-bottom: 48px;
 
     }
     .emailDiv .text{
         margin-bottom: 32px;
+        padding-left: unset;
     }
     #join{
+        margin-bottom: 80px;
         padding-top: 72px;
         padding-left: 32px;
         padding-right: 32px;
         padding-bottom: 107px;
+        background-image: url(https://res.cloudinary.com/dk80ynx1w/image/upload/v1685429046/lagmex_resource/Rectangle_6564_beengd.png);
+    }
+    #join .joinButton{
+        width: 300px;
     }
     .myToggle{
         font-weight: 400;
@@ -504,6 +519,10 @@
     }
 }
 @media (min-width: 1024px) {
+    #join{
+        margin-bottom: 136px;
+        background-image: url(https://res.cloudinary.com/dk80ynx1w/image/upload/v1685429965/lagmex_resource/Frame_1000003356_1_vdhhtq.png);
+    }
     .splitter{
         padding-left: 24px;
         padding-right: 24px;
@@ -517,7 +536,7 @@
         width: 62%;
     }
     .emailDiv .text{
-        width: 843px;
+        width: 561px;
     }
     #join{
         margin-left: 96px;

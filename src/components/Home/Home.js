@@ -5,13 +5,27 @@ import './Home.css';
 
 import "react-lazy-load-image-component/src/effects/blur.css"
 import Splitter from "./splitter";
-import React from "react";
+import React, {useEffect} from "react";
 import LastSplitter from "./lastSplit";
 import ToggleComponent from "./toggleComponent";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
 
 export default function Home() {
+
+
+    useEffect(() => {
+        const scrollToTargetDiv = () => {
+            const targetDivId = window.location.hash.slice(1); // Remove the '#' from the ID
+            const targetDiv = document.getElementById(targetDivId);
+            if (targetDiv) {
+                targetDiv.scrollIntoView({ behavior: 'smooth' });
+            }
+        };
+
+        scrollToTargetDiv();
+    }, []);
     const videos = [
         {id: "RzmLaXULZAw", text: "Commodities Market For Beginners | Edelweiss Wealth Management"},
         {id: "DIJgms3O_lM", text: "What is a Futures Contract?" },
@@ -24,7 +38,7 @@ export default function Home() {
         height: "220", // Specify the desired width in pixels
         width:"100%",
         playerVars: {
-            // ... other player vars ...
+
         },
     };
     return (
@@ -34,7 +48,7 @@ export default function Home() {
                     COMING SOON
                 </button>
                 <div className='firstText'>
-                    Welcome to Lagos Mercantile Exchange, Africa’s first electronically traded commodity derivative exchange.
+                    Welcome to Lagos Mercantile Exchange, Africa’s first electronically traded commodity derivatives exchange.
                 </div>
                 <div className='secondText'>
                     Be the first to know when we launch, receive exclusive insights about the market and get professional trading strategies.
@@ -56,11 +70,11 @@ export default function Home() {
 
                 </span>
             </div>
-            <Splitter className='splitter' text='Extensive Market Coverage' anotherText='Gain access to a diverse range of commodities, including metals, energy, agricultural products, and more. Explore global markets and capitalize on emerging trends with ease.'/>
+            <Splitter className='splitter' text='Extensive Market Coverage' anotherText='Gain access to a diverse range of commodities, including metals, energy, agricultural products, and more. Explore global markets and capitalize on emerging trends with ease.' id='loader'/>
             <Splitter className='splitter' splitID='splitID' imgID='splitterImg2' id='spliter' text='Robust Trading Tools' anotherText='Empower yourself with our powerful trading tools, including real-time market data, charts, and analysis. Make informed decisions and execute trades with confidence.'/>
             <Splitter className='splitter' imgID='splitterImg3' text='Seamless Integration' anotherText='Connect your existing trading accounts, access our API, or utilize third-party integrations to streamline your trading experience. We make it easy to integrate with your preferred tools and systems.'/>
             <Splitter className='splitter' splitID='splitID' imgID='splitterImg4' id='spliter' text='Secure and Reliable' anotherText='Rest assured knowing that your transactions are protected by state-of-the-art security measures. Our platform is built to ensure the safety of your investments and personal information.'/>
-            <div className='vidHead'>
+            <div className='vidHead' id='educate'>
                 Improve your Knowledge of <span>commodity exchange</span>
             </div>
             <div className='videos'>
@@ -88,7 +102,7 @@ export default function Home() {
 
 
             </div>
-            <div className='frequent'>
+            <div className='frequent' id='frequent'>
                 Frequently Asked Questions
             </div>
             <ToggleComponent text='Where is Lagmex incorporated?' another='LAGMEX is incorporated in Lagos, Nigeria.'/>
@@ -97,10 +111,10 @@ export default function Home() {
             <ToggleComponent text='Can individual traders participate on the commodities exchange?' another='Yes.'/>
             <ToggleComponent text='Do I need a broker to access the commodities exchange?' another='No. However, institutions might use a broker to place certain trades on their behalf.'/>
             <ToggleComponent text='What are the asset classes that can be traded on the exchange?' another='Assets include metals, agriculture, energy and tokenized commodities'/>
-            <div className='emailDiv'>
+            <div className='emailDiv' id='contact'>
                 <div className='heroImg joinG' id='join'>
                     <div className='text'>
-                        Join our waitlist for a new way to invest in African commodities with tokenization and derivatives trading.
+                        Join our waitlist now and experience a new level of efficiency and profitability.
                     </div>
                     <div className="joinGrp">
                         <input type='email' placeholder='Enter email address' />
